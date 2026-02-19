@@ -10,9 +10,9 @@ Perfect for personal reflections, Bible study notes, business ideas, client reca
 
 Both tools save everything as plain `.txt` files in the same folder as the script — fully under your control.
 
-### Available Tools
+## Available Tools
 
-#### 1. note_taker.py – Console Edition  
+### 1. note_taker.py – Console Edition  
 Straightforward command-line tool for terminal users.
 
 **Features**
@@ -24,11 +24,12 @@ Straightforward command-line tool for terminal users.
 - Graceful exit with full file path
 
 **Quick Start**
-```bash
+
 cd "Python Apps/Note taker"
 python note_taker.py
 Enter title → choose menu options → type done when adding notes → pick 4 to exit.
-2. note_taker_gui.py – GUI Edition
+
+### 2. note_taker_gui.py – GUI Edition
 Modern desktop window version for easier typing and reading.
 Features
 
