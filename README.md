@@ -8,9 +8,9 @@ Built by **Grizzly System Engineering** – East Helena, Montana
 Two versions of a clean, private, 100% local note-taking/journaling app — no cloud, no account, no tracking.  
 Perfect for personal reflections, Bible study notes, business ideas, client recaps, or daily thoughts.
 
-Both save everything as plain `.txt` files in the same folder as the script — fully under your control.
+Both tools save everything as plain `.txt` files in the same folder as the script — fully under your control.
 
-### Available Versions
+### Available Tools
 
 #### 1. note_taker.py – Console Edition  
 Straightforward command-line tool for terminal users.
@@ -49,7 +49,7 @@ Enter title → start typing in the big box → click Save Changes → use other
 Requirements (both versions)
 
 Python 3.8+
-colorama (pip install colorama) – only required for console version
+colorama (pip install colorama) — only required for console version (GUI does not need it)
 
 Folder Location
 https://github.com/cec406/Python-applications/tree/main/Python%20Apps/Note%20taker
