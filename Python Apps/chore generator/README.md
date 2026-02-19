@@ -46,7 +46,7 @@ Run again for a fresh list!Optional flags (if you add argparse later):Bashpython
 
 Customization
 Open chore_generator.py and edit the CHORES list:
-PythonCHORES = [
+CHORES = [
     "Clean bathroom sinks and mirrors",
     "Dust shelves and furniture",
     "Mop kitchen and bathroom floors",
@@ -64,4 +64,5 @@ Reach out via grizzlyse.com or email info@grizzlyse.com
 Phone/text: (406) 439-8127 (East Helena, Montana)
 Grizzly Proof Your Chores!
 🐻
+
 
