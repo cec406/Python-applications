@@ -1,31 +1,39 @@
-Grizzly Note Taker
-Simple Offline Journaling Tools
-Built by Grizzly System Engineering – East Helena, Montana
-https://grizzlyse.com | (406) 439-8127 | info@grizzlyse.com
-Two versions of a clean, private, 100% local note-taking and journaling app — no cloud, no account, no tracking. Perfect for personal reflections, Bible study notes, business ideas, client recaps, or daily thoughts.
-Both tools save everything as plain .txt files in the same folder as the script — fully under your control.
-Available Versions
-1. note_taker.py – Console Edition
-A straightforward command-line tool for users who prefer terminal simplicity.
-Features
+# Grizzly Note Taker
 
-Create unlimited named journals (spaces become underscores in filename)
-Add notes continuously (type lines, end with done)
-View full journal content with word count
-Append summaries (type/paste manually)
-Clear menu + colorful output (via colorama)
-Graceful exit with full file path
+**Simple Offline Journaling Tools**  
+Built by **Grizzly System Engineering** – East Helena, Montana  
 
-Quick Start
-textcd "Python Apps/Note taker"
+[https://grizzlyse.com](https://grizzlyse.com) | (406) 439-8127 | info@grizzlyse.com  
+
+Two versions of a clean, private, 100% local note-taking/journaling app — no cloud, no account, no tracking.  
+Perfect for personal reflections, Bible study notes, business ideas, client recaps, or daily thoughts.
+
+Both save everything as plain `.txt` files in the same folder as the script — fully under your control.
+
+### Available Versions
+
+#### 1. note_taker.py – Console Edition  
+Straightforward command-line tool for terminal users.
+
+**Features**
+- Create unlimited named journals (spaces become underscores in filename)
+- Add notes continuously (type lines, end with `done`)
+- View full journal content with word count
+- Append summaries (type/paste manually)
+- Clear menu + colorful output (via colorama)
+- Graceful exit with full file path
+
+**Quick Start**
+```bash
+cd "Python Apps/Note taker"
 python note_taker.py
 Enter title → choose menu options → type done when adding notes → pick 4 to exit.
 2. note_taker_gui.py – GUI Edition
-A modern desktop window version for easier typing and reading.
+Modern desktop window version for easier typing and reading.
 Features
 
 Direct typing in main text area (no pop-up for notes)
-Save changes with one click (or auto-save if added later)
+Save changes with one click
 Show saved journal, add summary, new journal, exit
 Buttons always visible at bottom (resize window freely)
 Clean light/dark theme (toggleable)
@@ -33,21 +41,20 @@ Status bar shows current journal and save location
 Grizzly branding and professional look
 
 Quick Start
-Use the batch file for reliability:
-textDouble-click run.bat
+Double-click run.bat (recommended)
 or from cmd:
-textcd "Python Apps/Note taker"
+Bashcd "Python Apps/Note taker"
 python note_taker_gui.py
 Enter title → start typing in the big box → click Save Changes → use other buttons as needed.
 Requirements (both versions)
 
 Python 3.8+
-colorama (pip install colorama) – only for console version (GUI doesn't need it)
+colorama (pip install colorama) – only required for console version
 
 Folder Location
 https://github.com/cec406/Python-applications/tree/main/Python%20Apps/Note%20taker
 About Grizzly System Engineering
-Home-based in East Helena, Montana, we deliver reliable IT solutions statewide:
+Home-based in East Helena, Montana, we provide reliable IT solutions statewide:
 
 Custom PC & server builds
 Secure network setup (including Starlink)
