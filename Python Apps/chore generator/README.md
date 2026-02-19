@@ -36,17 +36,18 @@ This lightweight script generates randomized or categorized chore suggestions yo
    git clone https://github.com/cec406/Python-applications.git
    cd Python-applications/Python\ Apps/chore\ generator
 
-Run the generator:Bashpython chore_generator.pyExample output:textToday's Grizzly-Approved Chores (3 tasks):
+Run the generator: python chore_generator.pyExample output:textToday's Grizzly-Approved Chores (3 tasks):
 
 1. Vacuum living room and hallways
 2. Wipe down kitchen counters and appliances
 3. Take out trash and recycling
 
-Run again for a fresh list!Optional flags (if you add argparse later):Bashpython chore_generator.py --num 5 --people "Caleb,Alex,Jordan"
+Run again for a fresh list! Optional flags (if you add argparse later): python chore_generator.py --num 5 --people "Caleb,Alex,Jordan"
 
 Customization
 Open chore_generator.py and edit the CHORES list:
-CHORES = 
+
+CHORES 
     "Clean bathroom sinks and mirrors",
     "Dust shelves and furniture",
     "Mop kitchen and bathroom floors",
@@ -64,6 +65,7 @@ Reach out via grizzlyse.com or email info@grizzlyse.com
 Phone/text: (406) 439-8127 (East Helena, Montana)
 Grizzly Proof Your Chores!
 🐻
+
 
 
 
