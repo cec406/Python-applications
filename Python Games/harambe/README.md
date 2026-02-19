@@ -46,17 +46,6 @@ A dark-humor tribute to the 2016 Harambe meme, built as a fun coding experiment 
 3. Launch the game:
    python harambe.py
 
-## Customization Ideas
-
-Want to Grizzly-fy it? Easy tweaks:
-- Change Harambe's color to grizzly brown
-- Add Montana-themed obstacles (mountains, snow, elk)
-- Increase/decrease child count or speed
-- Add banana collectibles for temporary speed boost
-- Sound effects (pygame.mixer — gorilla roar on hit?)
-- Save high scores to a text file
-
-If you want any of these turned into actual code, just ask — happy to build custom versions or client demo games.
 
 ## License
 
