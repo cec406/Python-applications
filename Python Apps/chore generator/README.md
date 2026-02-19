@@ -32,7 +32,7 @@ This lightweight script generates randomized or categorized chore suggestions yo
 ## Installation & Usage
 
 1. Clone or download this repo:
-   ```bash
+   
    git clone https://github.com/cec406/Python-applications.git
    cd Python-applications/Python\ Apps/chore\ generator
 
@@ -64,3 +64,4 @@ Reach out via grizzlyse.com or email info@grizzlyse.com
 Phone/text: (406) 439-8127 (East Helena, Montana)
 Grizzly Proof Your Chores!
 🐻
+
