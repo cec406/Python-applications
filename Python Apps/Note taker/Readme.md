@@ -1,65 +1,70 @@
 # Grizzly Note Taker
 
-**Simple Offline Journal & Note-Taking App**  
-Built by **Grizzly System Engineering** – East Helena, Montana
+**Simple Offline Journaling Tools**  
+Built by **Grizzly System Engineering** – East Helena, Montana  
 
-A clean, private, command-line tool for creating and managing journals, study notes, business ideas, client thoughts, or daily reflections — all stored locally as plain .txt files with no internet, no account, no tracking.
+[https://grizzlyse.com](https://grizzlyse.com) | (406) 439-8127 | info@grizzlyse.com  
 
-**Key Features**
-- Create any number of named journals (e.g., "Bible Study", "Dune Notes", "Montana Projects")
-- Add plain-text notes (no forced timestamps)
-- View full journal content anytime
-- Manually add summaries (paste AI-generated ones from Grok, ChatGPT, etc.)
-- Colorful console interface using Colorama
-- 100% offline & private — files stay on your machine
+Two versions of a clean, private, 100% local note-taking/journaling app — no cloud, no account, no tracking.  
+Perfect for personal reflections, Bible study notes, business ideas, client recaps, or daily thoughts.
 
-**Why This Tool?**  
-No subscriptions, no cloud sync, no bloat. Ideal for users who want reliable, offline note-taking without service dependency.
+Both tools save everything as plain `.txt` files in the same folder as the script — fully under your control.
 
-## Requirements
-- Python 3.8+  
-- Colorama (`pip install colorama`) — for colored output
+## Available Tools
 
-## Quick Start
+### 1. note_taker.py – Console Edition  
+Straightforward command-line tool for terminal users.
 
-1. **Install Colorama** (if needed)
-pip install colorama
-text2. **Run the app**
+**Features**
+- Create unlimited named journals (spaces become underscores in filename)
+- Add notes continuously (type lines, end with `done`)
+- View full journal content with word count
+- Append summaries (type/paste manually)
+- Clear menu + colorful output (via colorama)
+- Graceful exit with full file path
+
+**Quick Start**
+
+cd "Python Apps/Note taker"
 python note_taker.py
-textWindows tip: Create `run.bat` in the same folder:
-@echo off
-cd /d "%~dp0"
-python note_taker.py
-pause
-textDouble-click to launch.
+Enter title → choose menu options → type done when adding notes → pick 4 to exit.
 
-3. **Usage flow**
-- Enter a journal title (e.g., "Bible Study") → creates `Bible_Study.txt`
-- Menu options:
-  1. Add note → type lines, end with `done`
-  2. Show journal → view everything
-  3. Add AI summary → paste your summary after viewing
-  4. Exit
+### 2. note_taker_gui.py – GUI Edition
+Modern desktop window version for easier typing and reading.
+Features
 
-All changes append cleanly — dates are added only on first creation.
+Direct typing in main text area (no pop-up for notes)
+Save changes with one click
+Show saved journal, add summary, new journal, exit
+Buttons always visible at bottom (resize window freely)
+Clean light/dark theme (toggleable)
+Status bar shows current journal and save location
+Grizzly branding and professional look
 
-## About Grizzly System Engineering
-Home-based in **East Helena, Montana**, we provide reliable IT solutions statewide:
+Quick Start
+Double-click run.bat (recommended)
+or from cmd:
+Bashcd "Python Apps/Note taker"
+python note_taker_gui.py
+Enter title → start typing in the big box → click Save Changes → use other buttons as needed.
+Requirements (both versions)
 
-- Custom PC & server builds  
-- Secure network setup (including Starlink)  
-- Cybersecurity audits & penetration testing  
-- Computer repair, data recovery, digital forensics  
-- Custom applications, automation & scripting  
+Python 3.8+
+colorama (pip install colorama) — only required for console version (GUI does not need it)
 
-**Website**: https://grizzlyse.com  
-**Email**: info@grizzlyse.com  
-**Phone/Text**: (406) 439-8127  
+Folder Location
+https://github.com/cec406/Python-applications/tree/main/Python%20Apps/Note%20taker
+About Grizzly System Engineering
+Home-based in East Helena, Montana, we provide reliable IT solutions statewide:
 
-Want a customized journaling app, secure note system, mobile version, or integration with Zoho for business notes? Get in touch — we serve Helena, East Helena, and all of Montana.
+Custom PC & server builds
+Secure network setup (including Starlink)
+Cybersecurity audits & penetration testing
+Computer repair, data recovery, digital forensics
+Custom applications, automation & scripting
 
+Want a customized journaling app, secure note system, mobile version, Zoho integration, or AI-enhanced notes for your business? Get in touch — we serve Helena, East Helena, and all of Montana.
 Made with 🐻 in the Montana mountains.
-
-**Authorized Use Only**  
-This tool is for personal, private, and authorized use only.  
+Authorized Use Only
+These tools are for personal, private, and authorized use only.
 No redistribution or modification without permission from Grizzly System Engineering.
